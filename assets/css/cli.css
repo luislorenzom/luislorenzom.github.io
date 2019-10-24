@@ -1,0 +1,57 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    font: 14px/20px Monaco, monospace;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+#terminal {
+  font: 14px/20px Monaco, monospace;
+  color: #fff;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#terminal .line {
+  padding: 0 2px;
+}
+
+#terminal p {
+  margin: 0;
+}
+
+.cmd-p {
+  margin: 0 0 0 4px;
+  color: #ffffff;
+}
+
+input.cmd-ln {
+  display: inline;
+  font: 14px/20px Monaco, monospace;
+  background-color: #000;
+  border: 0px;
+  outline: none;
+  color: #fff;
+  width: auto;
+  margin-bottom: 0;
+}
+
+.cmd-ln:focus {
+  outline: none;
+}
+
+.user {
+  color: red;
+}
+
+.host {
+  color: green;
+}
+
+.path {
+  color: yellow
+}
